@@ -1,0 +1,69 @@
+.cover-image{
+    background-image: url("https://www.teahub.io/photos/full/193-1939741_pleasant-picture-of-nature.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-image h1{
+    font-size: 52px;
+    font-weight: normal;
+    color: black;
+    align-self: flex-end;
+    letter-spacing: 10px;
+}
+
+.cover-image .welcome-message{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    display: grid;
+    justify-items: center;
+}
+
+.cover-image .hori-bar{
+    background-color: black;
+    height: 2px;
+    width: 350px;
+    align-self: start;
+}
+
+.place-and-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.place-and-time .map{
+}
+
+.place-and-time .info{
+    display: grid;
+    justify-items: flex-start;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.place-and-time .info h1{
+   font-size: 24px;
+   color: black;
+   font-weight: bold;
+   padding: 10px;
+}
+
+.place-and-time .info h3{
+    padding: 5px;
+}
+
+.place-and-time .vert-line{
+    height: 90%;
+    width: 1px;
+    background-color: black;
+}
+
