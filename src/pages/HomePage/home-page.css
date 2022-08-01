@@ -1,5 +1,4 @@
-.cover-image{
-    background-image: url("https://www.teahub.io/photos/full/193-1939741_pleasant-picture-of-nature.jpg");
+.home-cover-image{
     height: 400px;
     width: 100%;
     background-size: cover;
@@ -8,36 +7,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://www.teahub.io/photos/full/193-1939741_pleasant-picture-of-nature.jpg");
 }
 
-.cover-image h1{
+.home-cover-image h1{
     font-size: 52px;
-    font-weight: normal;
-    color: black;
+    font-weight: bold;
+    color: white;
     align-self: flex-end;
     letter-spacing: 10px;
 }
 
-.cover-image .welcome-message{
-    background-color: white;
+.home-cover-image .welcome-message{
     padding: 10px;
-    width: 400px;
+    width: auto;
     display: grid;
     justify-items: center;
 }
 
-.cover-image .hori-bar{
-    background-color: black;
-    height: 2px;
-    width: 350px;
+.home-cover-image .hori-bar{
+    background-color: white;
+    height: 3px;
+    width: 100%;
     align-self: start;
 }
 
 .place-and-time{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
+    align-items: stretch;
+    height: auto;
+    margin-top: 20px;
 }
 
 .place-and-time .map{
@@ -55,14 +55,15 @@
    color: black;
    font-weight: bold;
    padding: 10px;
+   padding-left: 0px;
 }
 
 .place-and-time .info h3{
     padding: 5px;
+    padding-left: 0px;
 }
 
 .place-and-time .vert-line{
-    height: 90%;
     width: 1px;
     background-color: black;
 }

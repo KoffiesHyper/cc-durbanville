@@ -1,0 +1,107 @@
+.sof-cover-image{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1469228252629-cbe7cb7db2c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673&q=80");
+}
+
+.sof-cover-image h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    align-self: flex-end;
+    letter-spacing: 10px;
+}
+
+.sof-cover-image .welcome-message{
+    padding: 10px;
+    width: auto;
+    display: grid;
+    justify-items: center;
+}
+
+.sof-cover-image .hori-bar{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    align-self: start;
+}
+
+.sof-content{
+    width: 100%;
+    height: calc(100vh - 400px - 64px);
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.sof-content .side-bar{
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-rows: repeat(5, 30px);
+    justify-items: flex-start;
+    padding-top: 30px;
+}
+
+.sof-content button{
+    padding-left: 10px;
+    transition-duration: .25s;
+}
+.sof-content button:hover{
+    padding-left: 20px;
+    font-family: custom3;
+}
+
+.sof-content .info{
+    display: grid;
+    justify-items: flex-start;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.sof-content .info h1{
+    font-size: 36px;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+.sof-content .info li{
+    list-style-type: square;
+    padding: 10px;
+    width: 85%;
+    font-size: 18px;
+}
+
+.sof-content .info .link{
+    color: blue;
+}
+
+.sof-content .info .link:hover{
+    text-decoration: underline;
+}
+
+.sof-content .info .more-info{
+    height: auto;
+    width: 50%;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 255, 0.19);
+}
+
+.sof-content .info .more-info p{
+    margin-left: 5px;
+}

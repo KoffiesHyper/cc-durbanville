@@ -1,13 +1,16 @@
 import React from "react";
-import "./home-page.css"
+import "./home-page.css";
+import { IconContext } from "react-icons";
+import { IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
 
 export default function HomePage({ }) {
     return (
         <div>
-            <div className="cover-image">
+            <div className="home-cover-image">
                 <div className="welcome-message">
-                    <h1>WELCOME</h1>
-                    {/* <div className="hori-bar"></div> */}
+                    <div className="hori-bar"></div>
+                    <h1>Welcome</h1>
+                    <div className="hori-bar"></div>
                 </div>
             </div>
             <div className="place-and-time">
@@ -20,18 +23,31 @@ export default function HomePage({ }) {
                 <div className="info">
                     <h1>SERVICE TIMES</h1>
                     <h3>
-                        <span style={{fontWeight: 'bold'}}>Summer </span> (Octorber - March) - <span style={{fontWeight: 'bold'}}>09:00</span> am
+                        <span style={{ fontWeight: 'bold' }}>Summer </span> (Octorber - March) - <span style={{ fontWeight: 'bold' }}>09:00</span> am
                     </h3>
                     <h3>
-                        <span style={{fontWeight: 'bold'}}>Winter </span> (April - September) - <span style={{fontWeight: 'bold'}}>10:00</span> am
+                        <span style={{ fontWeight: 'bold' }}>Winter </span> (April - September) - <span style={{ fontWeight: 'bold' }}>10:00</span> am
                     </h3>
                     <h1>CONTACT US</h1>
                     <h3>
-                        <span style={{fontWeight: 'bold'}}>Telephone: </span> +27 (84) 622 6877
+                        <span style={{ fontWeight: 'bold' }}>Telephone: </span> +27 (84) 622 6877
                     </h3>
                     <h3>
-                        <span style={{fontWeight: 'bold'}}>Email: </span> calvarychapel7550@gmail.com
+                        <span style={{ fontWeight: 'bold' }}>Email: </span> calvarychapel7550@gmail.com
                     </h3>
+                    <h1>Social Media</h1>
+                    <div>
+                        <button>
+                            <a href="https://www.facebook.com/ccdurbanville" target="_blank">
+                                <IconContext.Provider value={{ size: '35' }}><IoLogoFacebook /></IconContext.Provider>
+                            </a>
+                        </button>
+                        <button>
+                            <a href="https://www.instagram.com/calvarydurbanville/" target="_blank">
+                                <IconContext.Provider value={{ size: '36' }}><IoLogoInstagram /></IconContext.Provider>
+                            </a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

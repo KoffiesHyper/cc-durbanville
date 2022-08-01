@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'custom1';
+  src: url('./fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'custom2';
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'custom3';
+  src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+body{
+  font-family: custom1;
+}
+
+body::-webkit-scrollbar { 
+  display: none;
+}
+
 .App {
   text-align: center;
 }
