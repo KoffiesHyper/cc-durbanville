@@ -33,21 +33,27 @@
 }
 
 .place-and-time{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
 }
 
 .place-and-time .map{
+    position: relative;
+    padding: 30px;
+    justify-self: flex-end;
+    box-shadow: 0 2px 4px 0 rgba(150, 150, 150, 0.2), 0 3px 10px 0 rgba(150, 150, 150, 0.19);
 }
 
 .place-and-time .info{
     display: grid;
     justify-items: flex-start;
     align-items: center;
-    margin-left: 100px;
+    justify-self: flex-start;
 }
 
 .place-and-time .info h1{
@@ -66,5 +72,6 @@
 .place-and-time .vert-line{
     width: 1px;
     background-color: black;
+    height: 80%;
 }
 

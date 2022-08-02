@@ -2,8 +2,9 @@ import React from "react";
 import "./home-page.css";
 import { IconContext } from "react-icons";
 import { IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
+import GoogleMap from "../../components/Map/GoogleMap";
 
-export default function HomePage({ }) {
+export default function HomePage({ google }) {
     return (
         <div>
             <div className="home-cover-image">
@@ -15,7 +16,8 @@ export default function HomePage({ }) {
             </div>
             <div className="place-and-time">
                 <div className="map">
-
+                    <h1>Place</h1>
+                    <GoogleMap />
                 </div>
 
                 <div className="vert-line"></div>
