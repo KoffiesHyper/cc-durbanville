@@ -1,0 +1,103 @@
+.giving-cover-image {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1423483641154-5411ec9c0ddf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.giving-cover-image h1 {
+    font-size: 52px;
+    color: white;
+    align-self: flex-end;
+    letter-spacing: 10px;
+    font-family: custom2;
+}
+
+.giving-cover-image .welcome-message {
+    padding: 10px;
+    width: auto;
+    display: grid;
+    justify-items: center;
+}
+
+.giving-cover-image .hori-bar {
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    align-self: start;
+}
+
+.giving-verses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    padding-inline: 10%;
+    margin-top: 20px;
+}
+
+.giving-verse {
+    display: grid;
+    justify-items: center;
+}
+
+.giving-verse h2 {
+    font-family: custom3;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.giving-verse p {
+    font-family: custom2;
+    padding: 10px;
+    width: 80%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.more-giving-info {
+    display: grid;
+    justify-items: center;
+    width: 50%;
+    justify-self: flex-end;
+}
+
+.more-giving-info h2 {
+    font-family: custom3;
+    padding: 10px;
+    font-size: 24px;
+    justify-self: start;
+    padding-left: 12.5%;
+}
+
+.more-giving-info p {
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.bank-details {
+    justify-self: flex-start;
+    text-align: left;
+    align-self: center;
+}
+
+.bank-details p {
+    padding: 10px;
+}
+
+.bank-details h2 {
+    font-family: custom3;
+    padding: 10px;
+    font-size: 24px;
+    justify-self: start;
+}

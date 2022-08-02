@@ -1,6 +1,8 @@
 .navbar{
     display: grid;
     grid-template-columns: 1fr 500px;
+    background-color: transparent;
+    position: absolute;
 }
 
 .nav-left{
@@ -11,6 +13,7 @@
 
 .nav-left h2{
     word-wrap: normal;
+    font-family: custom3;
 }
 
 .nav-right{
@@ -21,5 +24,5 @@
 
 .nav-right button{
     color: white;
-    font-family: custom2;
+    font-family: custom3;
 }

@@ -12,10 +12,10 @@
 
 .home-cover-image h1{
     font-size: 52px;
-    font-weight: bold;
     color: white;
     align-self: flex-end;
     letter-spacing: 10px;
+    font-family: custom2;
 }
 
 .home-cover-image .welcome-message{
