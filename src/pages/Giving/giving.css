@@ -101,3 +101,33 @@
     font-size: 24px;
     justify-self: start;
 }
+
+@media screen and (max-width: 800px){
+    .giving-cover-image .welcome-message{
+        width: 80%;
+    }
+
+    .info-container{
+        display: grid;
+        justify-items: center;
+    }
+
+    .more-giving-info{
+        justify-self: center;
+        width: 100%;
+    }
+
+    .bank-details{
+        justify-self: center;
+        width: 75%;
+    }
+
+    .bank-details h2, .bank-details p{
+        padding-left: 0px;
+    }
+
+    .giving-verses{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

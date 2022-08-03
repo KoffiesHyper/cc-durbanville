@@ -12,7 +12,7 @@ export default function Team({}){
                 </div>
             </div>
             <div className="team-info">
-                <img src="https://lh3.googleusercontent.com/f993wULJXGDR5QoVhmUbanrFqh6sWO-3IohB3xSCExCNY5b4fhB-sxzWJ7JEfn_CtTCTK8A811L-EybYDv_tp8ssAvB3UtpWeIjg0vwKQUrAWCTp46UcfLS9f-Bm_1v5OA=w1280" />
+                <img src="https://lh4.googleusercontent.com/OL12YRmcOnhsxn4RjR9oQ8PfDN_7h2FI41IjVCfnzNhJyd6cCnBzSrcZKcdQsW_f0u_GmfVGyBAB-nG-hSNnujWoMK5SC-KWHw_OZlSfcR4voVP9VcuQ_v-836dsCWqb5A=w1280" />
                 <div className="team-info-text">
                     <p>Pastor Theunis Möller (Boet) has been with Calvary Chapel for 17 years.</p>
                     <p>He began the Calvary Chapel Durbanville plant in Dec 2018, along with his wife Ruth, and two daughters - Hannah and Penny.</p>

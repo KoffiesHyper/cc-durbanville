@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+.nav-left img{
+    margin-left: 20px;
+}
+
 .nav-left h2{
     word-wrap: normal;
     font-family: custom3;

@@ -75,7 +75,7 @@ export default function SOF({ }) {
                         </li>
                     </ul>
                     <div className="more-info">
-                        <IconContext.Provider value={{color: 'blue', size: '25'}}><MdInfoOutline /></IconContext.Provider>
+                        <IconContext.Provider value={{color: 'white', size: '25'}}><MdInfoOutline /></IconContext.Provider>
                         <p>For further details, click <a target='_blank' href="https://calvarycca.org/philosophy/#eschatology"><span className="link">here</span></a></p>
                     </div>
                 </div>

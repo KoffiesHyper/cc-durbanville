@@ -53,3 +53,31 @@
     padding: 10px;
     text-align: left;
 }
+
+@media screen and (max-width: 800px){
+    .team-cover-image .welcome-message{
+        width: 80%;
+    }
+
+    .team-info{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .team-info-text{
+        border-left: none;
+        border-top: 1px solid black;
+        width: 85%;
+        display: grid;
+        justify-items: center;
+        padding-top: 20px;
+    }
+
+    .team-info-text p{
+        width: 90%;
+    }
+
+    .team-info img{
+        justify-self: center;
+    }
+}

@@ -10,8 +10,8 @@ export default function NavBar({}){
         <div className="navbar w-full bg-black h-16">
             <div className="nav-left items-center h-full">
                 <img 
-                src="https://static.wixstatic.com/media/21700f_4fe9bba072b746cab141a86d4b28edf8~mv2_d_1478_1300_s_2.png/v1/fit/w_2500,h_1330,al_c/~mv2_d_1478_1300_s_2.png"
-                width={75}
+                src="https://lh5.googleusercontent.com/0TtVOZqJO3N-Q6uCQHoqfalLTPW1V2Ks5B0HZ-xDCoszYl4oL0rprIDigblCsOMfoeotSZ_MWjMy3GI5V3LoQFM=w16383"
+                width={50}
                 />
                 <h2 className="text-white justify-self-start">CALVARY CHAPEL DURBANVILLE</h2>
             </div>

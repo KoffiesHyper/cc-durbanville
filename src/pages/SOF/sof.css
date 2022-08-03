@@ -82,7 +82,7 @@
 }
 
 .sof-content .info .link{
-    color: blue;
+    color: greenyellow;
 }
 
 .sof-content .info .link:hover{
@@ -93,15 +93,38 @@
     height: auto;
     width: 50%;
     border-radius: 3px;
-    background-color: rgba(0, 0, 255, 0.1);
+    background-color: black;
     display: flex;
     justify-content: center;
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 255, 0.2), 0 3px 10px 0 rgba(0, 0, 255, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    font-family: custom3;
+    justify-self: center;
+    margin-right: 175px;
 }
 
 .sof-content .info .more-info p{
     margin-left: 5px;
+}
+
+@media screen and (max-width: 800px){
+    .sof-content{
+        grid-template-columns: 1fr;
+    }
+
+    .sof-cover-image .welcome-message{
+        width: 80%;
+    }
+
+    .sof-content .side-bar{
+        display: none;
+    }
+
+    .sof-content .info .more-info{
+        width: 100%;
+        margin-right: 12%;
+    }
 }
