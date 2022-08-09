@@ -1,0 +1,18 @@
+.calendar-container{
+    margin: 30px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+}
+
+.day-container{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: grid;
+    justify-items: flex-start;
+    padding: 3px;
+    padding-left: 6px;
+}

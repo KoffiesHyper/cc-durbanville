@@ -3,6 +3,7 @@ import "./home-page.css";
 import { IconContext } from "react-icons";
 import { IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
 import GoogleMap from "../../components/Map/GoogleMap";
+import Calendar from "../../components/Calendar/calendar";
 
 export default function HomePage({ google }) {
     return (
@@ -17,7 +18,7 @@ export default function HomePage({ google }) {
             <div className="place-and-time">
                 <div className="map">
                     <h1>Place</h1>
-                    <GoogleMap />
+                    {/* <GoogleMap /> */}
                 </div>
 
                 <div className="vert-line"></div>
@@ -51,6 +52,9 @@ export default function HomePage({ google }) {
                         </button>
                     </div>
                 </div>
+            </div>
+            <div className="calendar">
+                <Calendar />
             </div>
         </div>
     );

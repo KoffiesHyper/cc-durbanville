@@ -1,0 +1,74 @@
+.bc-cover-image{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.bc-cover-image h1{
+    font-size: 52px;
+    color: white;
+    align-self: flex-end;
+    letter-spacing: 10px;
+    font-family: custom2;
+}
+
+.bc-cover-image .welcome-message{
+    padding: 10px;
+    width: auto;
+    display: grid;
+    justify-items: center;
+}
+
+.bc-cover-image .hori-bar{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    align-self: start;
+}
+.book-preview{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.book-cover{
+    width: 300px;
+    height: 600px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.book-preview button{
+    background-color: green;
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 128, 0, 0.5), 0 3px 10px 0 rgba(0, 128, 0, 0.5);
+    margin-top: 20px;
+}
+
+.book-info{
+    justify-self: start;
+    display: grid;
+    justify-items: flex-start;
+    align-items: flex-start;
+    grid-template-rows: 50px 50px 50px 50px;
+}

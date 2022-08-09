@@ -18,6 +18,7 @@ export default function NavBar({}){
             <div className="nav-right">
                 <button onClick={() => navigate('/')}>Home</button>
                 <button onClick={() => navigate('/statement-of-faith')}>Statement of Faith</button>
+                <button onClick={() => navigate('/book-club')}>Book Club</button>
                 <button onClick={() => navigate('/team')}>Ministry Team</button>
                 <button onClick={() => navigate('/giving')}>Giving</button>
             </div>

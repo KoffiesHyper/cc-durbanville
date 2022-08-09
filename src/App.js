@@ -10,6 +10,7 @@ import HomePage from "./pages/HomePage/home-page";
 import SOF from "./pages/SOF/sof";
 import Team from "./pages/Team/team";
 import Giving from "./pages/Giving/giving";
+import BookClub from './pages/BookClub/book-club';
 
 import NavBar from './components/NavBar/navbar';
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path={'/'} element={<HomePage />} />
           <Route path={'/statement-of-faith'} element={<SOF />} />
+          <Route path={'/book-club'} element={<BookClub />} />
           <Route path={'/team'} element={<Team />} />
           <Route path={'/giving'} element={<Giving />} />
         </Routes>
