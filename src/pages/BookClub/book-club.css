@@ -72,3 +72,13 @@
     align-items: flex-start;
     grid-template-rows: 50px 50px 50px 50px;
 }
+
+.book-info h1{
+    font-family: custom3;
+    font-size: 1.5rem;
+}
+
+.book-info h3{
+    font-family: custom2;
+    font-size: 1.125rem;
+}

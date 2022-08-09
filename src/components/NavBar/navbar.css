@@ -30,3 +30,22 @@
     color: white;
     font-family: custom3;
 }
+
+.expand{
+    display: none;
+    z-index: 2;
+}
+
+@media screen and (max-width: 800px){
+    .navbar{
+        display: none;
+    }
+
+    .expand{
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}

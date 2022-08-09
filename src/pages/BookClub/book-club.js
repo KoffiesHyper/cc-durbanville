@@ -3,8 +3,6 @@ import "./book-club.css";
 import { IconContext } from "react-icons";
 import { MdDownload } from "react-icons/md";
 
-import { Document, Page } from 'react-pdf';
-
 export default class BookClub extends React.Component {
     render() {
         return (
@@ -28,11 +26,11 @@ export default class BookClub extends React.Component {
                     </div>
                     <div className="book-info">
                         <h1>{"<Book Tile>"}</h1>
-                        <p>{"<Description>"}</p>
-                        <p>{"<Meeting Date>"}</p>
-                        {/* <Document file='file.pdf' onLoadSuccess={this.componentDidMount.bind(this)}>
-                            <Page pageNumber={1} />
-                        </Document> */}
+                        <p>{"<Description Content>"}</p>
+                        <p>
+                            <span style={{ fontFamily: 'custom3' }}>Meeting Date: </span>
+                            {"<Meeting Date>"}
+                        </p>
                     </div>
                 </div>
             </div>

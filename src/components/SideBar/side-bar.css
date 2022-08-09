@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px){
+    .side-bar{
+        height: 100vh;
+        width: 40%;
+        justify-self: start;
+        background-color: rgb(228, 228, 228);
+        border-right: 1px solid gray;
+        z-index: 1;
+        position: absolute;
+        animation-name: expandSideBar;
+        animation-duration: .25s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 2px 4px 0 rgba(150, 150, 150, 0.2), 0 3px 10px 0 rgba(150, 150, 150, 0.19);
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .side-bar button{
+        padding: 10px;
+        padding-left: 20px;
+        transition-duration: .25s;
+    }
+
+    .side-bar button:hover{
+        padding-left: 30px;
+        font-family: custom3;
+    }
+
+    @keyframes expandSideBar {
+        0% {
+            left: -50%;
+        }
+
+        100% {
+            left: 0%;
+        }
+    }
+}

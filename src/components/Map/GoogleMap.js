@@ -1,10 +1,10 @@
 import React from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 
-function GoogleMap({ google }) {
+export default function GoogleMap({ google }) {
     return (
         <div>
-            <Map
+            {/* <Map
                 google={google}
                 initialCenter={{
                     lat: -33.834011,
@@ -24,11 +24,11 @@ function GoogleMap({ google }) {
                     name={'SOMA'}
                     position={{ lat: -33.834025, lng: 18.63592 }}>
                 </Marker>
-            </Map>
+            </Map> */}
         </div>
     );
 }
 
-export default GoogleApiWrapper({
-    apiKey: 'AIzaSyAmx0ZZ7u6HyN56saHaBIrA3kGZvDeSoPg'
-})(GoogleMap)
+// export default GoogleApiWrapper({
+//     apiKey: 'AIzaSyAmx0ZZ7u6HyN56saHaBIrA3kGZvDeSoPg'
+// })(GoogleMap)
